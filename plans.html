@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        table {
+            position: absolute;
+            top: 30%;
+            left: 10%;
+            width: 80%;
+            height: 100px;
+            border-collapse: collapse;
+            color: #000000;
+            font-size: 25px;
+            text-align: left;
+            border: solid 2px red;
+            border-radius: 50%;
+            text-align: left;
+        }
+
+        table td , table th {
+          padding: 20px;
+           
+        }
+
+        th:nth-child(2){
+            text-align: center;
+        }
+        th:nth-child(3){
+            text-align: center;
+        }
+        th:nth-child(4){
+            text-align: center;
+        }
+
+        td:nth-child(2){
+            text-align: center;
+        }
+        td:nth-child(3){
+            text-align: center;
+        }
+        td:nth-child(4){
+            text-align: center;
+        }
+
+        tr:nth-child(even) {background-color: #f2f2f2}
+        
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+            <li><img src="assets/logo.png" style="height: 50px;" alt=""></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="plans.html">Plans</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+
+    <h1 style="font-size: 50px; letter-spacing: 2px; position: absolute; top: 10%; left: 10%; color: red;"><span style="color: gray;">02</span> &nbsp; Plans</h3>
+    
+    <p style="position: absolute; top: 18%; left: 10%; font-size: 20px;">choose plan that right for you</p>
+
+    <table>
+            <tr>
+                <th>Plans</th>
+                <th style="background-color:  #ED2939;">Premium</th>
+                <th>VIP</th>
+                <th style="background-color:  #CD5C5C;">Basic</th>
+            </tr>
+           
+            <tr>
+                <td>Price</td>
+                <td>₹ 799</td>
+                <td>₹ 499</td>
+                <td>₹ 199</td>
+            </tr>
+
+            <tr>
+                <td>Quality</td>
+                <td>Ultra HD</td>
+                <td>HD</td>
+                <td>SD</td>
+            </tr>
+
+            <tr>
+                <td>Screen</td>
+                <td>4</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <td>Dolby Atmos</td>
+                <td>✓</td>
+                <td>✓</td>
+                <td>x</td>
+            </tr>
+        </table>
+
+</body>
+</html>
